@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Monserrat' ,sans-serif;
+    background: rgb(228, 228, 288);
+   
+}
+.container {
+    background-image: url('');
+    height: 100vh;
+
+}
+.heading {
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    background: #00848c;
+    color: white;
+
+}
+
+.heading h1 {
+    font-size: 35px;
+}
+
+.heading p {
+    margin-top:8px ;
+    font-size: 20px;
+
+}
+.currencyInput {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 90%;
+    max-width: 0 auto;
+}
+#euro, #dollar, #indianRs, #lankaRs, #JPY, #cny, #gbp, #franc, #cad, #hkd{
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    padding: 20px 20px;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 430px;
+    box-shadow: 0px 1px 5px rgb(97, 97, 97);
+}
+#euro {
+background: #4a69ff;
+}
+
+#dollar {
+background: #35d073;
+}
+
+#indianRs {
+  background:   #ff7a2f;
+  .container 
+
+}
+#JPY {
+ background:    #FF7a2f;
+}
+
+#gbp{
+
+    background: #35d073;
+}
+
+#cny{
+    background: #c54a02;
+}
+
+#franc{
+    background: #f85c50;
+}
+
+#cad {
+    background: #f85c50;
+}
+
+#hkd {
+    background:  #4a69ff;
+}
